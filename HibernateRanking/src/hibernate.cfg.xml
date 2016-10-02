@@ -16,9 +16,10 @@
 <!--    <property name="hbm2ddl.auto">update</property> -->
 <!--    <property name="hibernate.connection.autocommit">true</property> -->
 
-  <!--  <mapping class="Day2.Ranking"/>
-   <mapping class="Day2.Skill"/>
-   <mapping class="Day2.Student"/> -->
+   <mapping class="com.learningPath.hibernate.Ranks"/>
+   <mapping class="com.learningPath.hibernate.Student"/>
+   <mapping class="com.learningPath.hibernate.Skill"/>
+   
    
 </session-factory>
 </hibernate-configuration>
